@@ -64,16 +64,13 @@ function uploadTransaction() {
         })
             .then(response => response.json())
             .then(serverResponse => {
-              console.log('serverResponse', serverResponse)
             if (serverResponse.message) {
                 throw new Error(serverResponse);
             }
             // open one more transaction
             const transaction = db.transaction(['new_transaction'], 'readwrite');
-            console.log('transaction', transaction)
             // access the new_transaction object store
             const transactionObjectStore = transaction.objectStore('new_transaction');
-            console.log('transactionObjectStore', transactionObjectStore)
             // clear all items in your store
             transactionObjectStore.clear();
 

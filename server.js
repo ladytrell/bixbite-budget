@@ -15,6 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
+// Access to files for caching
 app.use(express.static("./"));
 
 mongoose.connect(MONGODB_URI, {
