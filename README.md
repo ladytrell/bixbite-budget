@@ -2,7 +2,7 @@
   
   ## Description
 
-  An application to create a simple html webpage to display basic employee contact details.  Command line prompts the manager for their name, email address and office number.  Then collects details for engineers and interns.
+  An application to create a simple html webpage to display basic employee contact details.  Command line prompts the manager for their name, email address and office number.  Then collects details for engineers and interns.  App can be downloaded for offline use in the web browser.
 
 
   ## Table of Contents (Optional)
@@ -29,9 +29,6 @@
 
   ## Demo Images
   ![](./assets/images/demo-image.jpg/)
-  ![](./assets/images/cli-demo1.jpg/) 
-  ![](./assets/images/cli-demo2.jpg/)
-  ![](./assets/images/cli-demo3.jpg/)
 
   ## Questions
 
